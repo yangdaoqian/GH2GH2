@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "GH2GH2": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Program Files\\Rhino 8 WIP\\System\\Rhino.exe",
+      "workingDirectory": "C:\\Program Files\\Rhino 8 WIP\\System",
+      "remoteDebugEnabled": false,
+      "authenticationMode": "None"
+    }
+  }
+}

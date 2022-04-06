@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>GH2GH2</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net48</TargetFramework>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Eto">
+      <HintPath>..\..\..\..\..\Program Files\Rhino 8 WIP\System\Eto.dll</HintPath>
+    </Reference>
+    <Reference Include="GH_IO">
+      <HintPath>..\..\..\..\..\Program Files\Rhino 8 WIP\Plug-ins\Grasshopper\GH_IO.dll</HintPath>
+    </Reference>
+    <Reference Include="Grasshopper">
+      <HintPath>..\..\..\..\..\Program Files\Rhino 8 WIP\Plug-ins\Grasshopper\Grasshopper.dll</HintPath>
+      <Aliases>GH1</Aliases>
+    </Reference>
+    <Reference Include="Grasshopper2">
+      <HintPath>..\..\..\AppData\Roaming\McNeel\Rhinoceros\packages\8.0\Grasshopper2\2.0.8126-wip.19400\Grasshopper2.dll</HintPath>
+    </Reference>
+    <Reference Include="GrasshopperIO">
+      <HintPath>..\..\..\AppData\Roaming\McNeel\Rhinoceros\packages\8.0\Grasshopper2\2.0.8126-wip.19400\GrasshopperIO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+  </ItemGroup>
+</Project>
